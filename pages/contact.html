@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Morgan Designs</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width" initial-scale="1.0" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body class = "bg-gray-200">
+        <header class = "fixed w-full bg-white text-black md:flex md:justify-between">
+            <a class = "font-mono font-bold px-8 py-10 hover:underline" href="../index.html">Morgan Designs</a>
+            <div class = "header-branding justify-center"></div>
+                <img src="../morgan-logo.jpg" class = "rounded-full h-48 w-48 flex justify-center"/>
+                <nav>
+                    <ul class = "md:flex">
+                        <li>
+                            <a class = "font-mono in-line block font-bold px-8 py-10 hover:underline" href="ShopStuff/shop.html">Shop</a>
+                        </li>
+                        <li>
+                            <a class = "font-mono in-line block font-bold px-8 py-10 hover:underline" href="work.html">Work</a>
+                        </li>
+                        <li>
+                            <a class = "font-mono in-line block font-bold px-8 py-10 hover:underline" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section Id="info">
+                <div class="py-60 container grid grid-cols-2">
+                    <form class="text-lg col-span-1 p-3 font-mono md:w-full grid grid-cols-1 justify-center" style="text-align:center">
+                    <label for="fname"></label>First Name</label>
+                    <input style="text-align:center" type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input style="text-align:center" type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="country">Country</label>
+                    <select style="text-align:center" id="country" name="country">
+                        <option  value="australia">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">Australia</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input class = "p-2 text-center bg-green-500 rounded" style="text-align:center"type="submit" value="Submit">
+                
+                    </form>
+                    <div class="float-right place-self-center divide-y divide-black">
+                        <div></div>
+                        <div class = "p-20 font-2xl font-mono font-black">
+                            <pre>
+Events + Partnerships + Kind Words:
+
+morgansdesigns5476@gmail.com
+                            </pre>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/morgansdesigns/">
+                                <img src = "../instagram.png" class="w-65px h-30 rounded">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-black text-white p-10 italic text-center">
+            © 2021 Morgan Designs. All rights reserved.
+        </footer>
+    </body>
+</html>
